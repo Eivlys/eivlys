@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 70%;
+    height: auto;
+    margin: 30px auto 0px;
+    background-color: #444
+}
+
+.title{
+    width: 100%;
+    margin: 5px auto 10px;
+    background-color: #444;
+    text-align: center;
+}
+
+.title a{
+    color: #28fc5a;
+    font-family: Arial, Helvatica, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-decoration:none;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    z-index: 1;
+}
+
+.tooltip{
+    color: #28fc5a;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.tooltip-box{
+    display: block;
+    background-color: #444;
+    line-height: 1.6;
+    border: 1px solid #28fc5a;
+    color: #28fc5a;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    overflow: auto;
+    z-index: 2;
+}
+
+.container .personal-info{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #666;
+    border-radius: 20px;
+}
+
+.container .personal-info:hover{
+    background-color: #444;
+}
+
+.container .personal-info .person{
+    width: 20%;
+    height: 100%px;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.container .personal-info .person p{
+    text-align: center;
+    color: #28fc5a;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Microsoft Yehei","Lantinghei SC","Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    float: right;
+    margin-top: 25px;
+}
+
+.container .personal-info .divide{
+    width: 4px;
+    height: 85%;
+    margin: 15px 15px;
+    background-color: #28fc5a;
+    position: relative;
+    float: left;
+    border-radius: 2px;
+}
+
+.container .personal-info .info-des{
+    width: 45%;
+    height: auto;
+    margin: 15px 0;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 40px;
+    font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    font-size: 20px;
+    color: #28fc5a;
+}
+
+.container .personal-info img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #28fc5a;
+    border-radius: 78px;
+    margin: 20px 40px;
+    position: relative;
+    float: right;
+    -webkit-transition: -weblit-transform 3s;
+    -moz-transition:  -moz-transform 3s;
+    -o-transition: -o-transform 3s;
+    -ms-transition: -ms-transform 3s;
+    transition: transform 3s;
+}
+
+img:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+.container .dot{
+    width: 90%;
+    height: 6px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.container .dot .left{
+    width: 20%;
+    height: 6px;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.container .dot .icon{
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    margin: 0px 14px 0px 14px;
+    background-color: #28fc5a;
+    position: relative;
+    float: left;
+}
+
+.container .education,.container .intern,.container .project,.container .lang{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+.container .education:hover,.container .intern:hover,.container .project:hover,.container .program:hover,.container .active:hover,.container .tech:hover,.container .lang:hover{
+    background-color: #444;
+}
+
+.container .education .edu-title,.container .intern .intern-title,.container .project .project-title,.container .program .program-title,.container .active .active-title,.container .tech .tech-title,.container .lang .lang-title{
+    width: 20%;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.container .education .edu-title p,.container .intern .intern-title p,.container .project .project-title p,.container .program .program-title p,.container .active .active-title p,.container .tech .tech-title p,.container .lang .lang-title p{
+    text-align: center;
+    color: #28fc5a;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Microsoft Yehei","Lantinghei SC","Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    float: right;
+    margin-top:7px;
+}
+
+.container .education .divide,.container .intern .divide,.container .project .divide,.container .lang .divide{
+    width: 4px;
+    height: 40%;
+    margin: 15px 15px;
+    background-color: #28fc5a;
+    position: relative;
+    float: left;
+    border-radius: 2px;
+}
+
+.container .education .edu-info,.container .intern .intern-info,.container .project .project-info,.container .lang .lang-info{
+    width: 45%;
+    height: auto;
+    margin: 10px 0;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 30px;
+    font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    font-size: 20px;
+    color: #28fc5a;
+}
+
+.container .education .edu-time{
+    position: relative;
+    float: right;
+    height: auto;
+    margin: 10px 40px;
+    display: block;
+    line-height: 30px;
+    font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    font-size: 20px;
+    color: #28fc5a;
+}
+
+.container .intern .intern-time,.container .project .project-time,.container .program .program-time,.container .active .active-time{
+    position: relative;
+    float: right;
+    height: auto;
+    margin: 10px 40px;
+    display: block;
+    line-height: 30px;
+    font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    font-size: 20px;
+    color: #28fc5a;
+}
+
+.container .program,.container .active,.container .tech{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #666;
+    border-radius: 20px;
+}
+
+.container .program .divide,.container .active .divide,.container .tech .divide{
+    width: 4px;
+    height: 70%;
+    margin: 15px 15px;
+    background-color: #28fc5a;
+    position: relative;
+    float: left;
+    border-radius: 2px;
+}
+
+.container .program .program-info,.container .active .active-info{
+    width: 45%;
+    height: auto;
+    margin-top: 7px;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 40px;
+    font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    font-size: 20px;
+    color: #28fc5a;
+}
+
+.container .program .program-time p,.container .active .active-time p{
+    text-align: right;
+    height: auto;
+    display: block;
+    line-height:37px;
+    font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    font-size: 20px;
+    color: #28fc5a;
+}
+
+.container .tech .tech-info{
+    width: 60%;
+    height: auto;
+    margin-top: 7px;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 40px;
+    font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
+    font-size: 20px;
+    color: #28fc5a;
+}
+
+.container .circle{
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.container .circle .left{
+    width: 20%;
+    height: 40px;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.container .circle .icon{
+    width: 24px;
+    height: 24px;
+    margin: 5px 0px;
+    border-radius: 17px;
+    border: 5px solid #28fc5a;
+    position: relative;
+    float: left;
+}
+
+.container .circle .icon:hover{
+    width: 24px;
+    height: 24px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    border: none;
+    background-color: #28fc5a;
+    position: relative;
+    float: left;
+}
+
+.portfolio{
+    width: 50%;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 7px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: #666;
+    border:1px solid #28fc5a;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.portfolio a{
+    text-decoration: none;
+}
+
+.portfolio p{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #28fc5a;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: "Microsoft Yehei", "Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
+}
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 20px;
+}
+
+.footer p{
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

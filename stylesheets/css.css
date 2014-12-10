@@ -7,20 +7,20 @@ body{
     width: 70%;
     height: auto;
     margin: 30px auto 0px;
-    background-color: #444
+    background-color: #222
 }
 
 .title{
     width: 100%;
     margin: 5px auto 10px;
-    background-color: #444;
+    background-color: #222;
     text-align: center;
 }
 
 .title a{
-    color: #28fc5a;
+    color: #b5e853;
     font-family: Arial, Helvatica, sans-serif;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
     text-decoration:none;
 }
@@ -33,17 +33,17 @@ body{
 }
 
 .tooltip{
-    color: #28fc5a;
+    color: #b5e853;
     cursor: pointer;
     z-index: 2;
 }
 
 .tooltip-box{
     display: block;
-    background-color: #444;
+    background-color: #222;
     line-height: 1.6;
-    border: 1px solid #28fc5a;
-    color: #28fc5a;
+    border: 1px solid #b5e853;
+    color: #b5e853;
     padding: 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -55,12 +55,12 @@ body{
     width: 90%;
     height: 200px;
     margin: 0 auto;
-    background-color: #666;
+    background-color: #444;
     border-radius: 20px;
 }
 
 .container .personal-info:hover{
-    background-color: #444;
+    background-color: #222;
 }
 
 .container .personal-info .person{
@@ -73,7 +73,7 @@ body{
 
 .container .personal-info .person p{
     text-align: center;
-    color: #28fc5a;
+    color: #b5e853;
     font-size: 25px;
     font-weight: 700;
     font-family: "Microsoft Yehei","Lantinghei SC","Hiragino Sans GB", Helvatica, Arial, sans-serif;
@@ -85,7 +85,7 @@ body{
     width: 4px;
     height: 85%;
     margin: 15px 15px;
-    background-color: #28fc5a;
+    background-color: #b5e853;
     position: relative;
     float: left;
     border-radius: 2px;
@@ -101,13 +101,13 @@ body{
     line-height: 40px;
     font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
     font-size: 20px;
-    color: #28fc5a;
+    color: #b5e853;
 }
 
 .container .personal-info img{
     width: 150px;
     height: 150px;
-    border: 3px solid #28fc5a;
+    border: 3px solid #b5e853;
     border-radius: 78px;
     margin: 20px 40px;
     position: relative;
@@ -147,7 +147,7 @@ img:hover{
     height: 6px;
     border-radius: 5px;
     margin: 0px 14px 0px 14px;
-    background-color: #28fc5a;
+    background-color: #b5e853;
     position: relative;
     float: left;
 }
@@ -156,12 +156,12 @@ img:hover{
     width: 90%;
     height: 50px;
     margin: 0 auto;
-    background-color: #666;
+    background-color: #444;
     border-radius: 10px;
 }
 
 .container .education:hover,.container .intern:hover,.container .project:hover,.container .program:hover,.container .active:hover,.container .tech:hover,.container .lang:hover{
-    background-color: #444;
+    background-color: #222;
 }
 
 .container .education .edu-title,.container .intern .intern-title,.container .project .project-title,.container .program .program-title,.container .active .active-title,.container .tech .tech-title,.container .lang .lang-title{
@@ -174,7 +174,7 @@ img:hover{
 
 .container .education .edu-title p,.container .intern .intern-title p,.container .project .project-title p,.container .program .program-title p,.container .active .active-title p,.container .tech .tech-title p,.container .lang .lang-title p{
     text-align: center;
-    color: #28fc5a;
+    color: #b5e853;
     font-size: 25px;
     font-weight: 700;
     font-family: "Microsoft Yehei","Lantinghei SC","Hiragino Sans GB", Helvatica, Arial, sans-serif;
@@ -186,7 +186,7 @@ img:hover{
     width: 4px;
     height: 40%;
     margin: 15px 15px;
-    background-color: #28fc5a;
+    background-color: #b5e853;
     position: relative;
     float: left;
     border-radius: 2px;
@@ -202,7 +202,7 @@ img:hover{
     line-height: 30px;
     font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
     font-size: 20px;
-    color: #28fc5a;
+    color: #b5e853;
 }
 
 .container .education .edu-time{
@@ -214,7 +214,7 @@ img:hover{
     line-height: 30px;
     font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
     font-size: 20px;
-    color: #28fc5a;
+    color: #b5e853;
 }
 
 .container .intern .intern-time,.container .project .project-time,.container .program .program-time,.container .active .active-time{
@@ -226,14 +226,14 @@ img:hover{
     line-height: 30px;
     font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
     font-size: 20px;
-    color: #28fc5a;
+    color: #b5e853;
 }
 
 .container .program,.container .active,.container .tech{
     width: 90%;
     height: 100px;
     margin: 0 auto;
-    background-color: #666;
+    background-color: #444;
     border-radius: 20px;
 }
 
@@ -241,7 +241,7 @@ img:hover{
     width: 4px;
     height: 70%;
     margin: 15px 15px;
-    background-color: #28fc5a;
+    background-color: #b5e853;
     position: relative;
     float: left;
     border-radius: 2px;
@@ -257,7 +257,7 @@ img:hover{
     line-height: 40px;
     font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
     font-size: 20px;
-    color: #28fc5a;
+    color: #b5e853;
 }
 
 .container .program .program-time p,.container .active .active-time p{
@@ -267,7 +267,7 @@ img:hover{
     line-height:37px;
     font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
     font-size: 20px;
-    color: #28fc5a;
+    color: #b5e853;
 }
 
 .container .tech .tech-info{
@@ -280,7 +280,7 @@ img:hover{
     line-height: 40px;
     font-family: "Microsoft Yehei","Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
     font-size: 20px;
-    color: #28fc5a;
+    color: #b5e853;
 }
 
 .container .circle{
@@ -303,7 +303,7 @@ img:hover{
     height: 24px;
     margin: 5px 0px;
     border-radius: 17px;
-    border: 5px solid #28fc5a;
+    border: 5px solid #b5e853;
     position: relative;
     float: left;
 }
@@ -314,7 +314,7 @@ img:hover{
     margin: 10px 5px;
     border-radius: 12px;
     border: none;
-    background-color: #28fc5a;
+    background-color: #b5e853;
     position: relative;
     float: left;
 }
@@ -327,8 +327,8 @@ img:hover{
     display: block;
     float: left;
     position: relative;
-    background-color: #666;
-    border:1px solid #28fc5a;
+    background-color: #444;
+    border:1px solid #b5e853;
     border-radius: 10px;
     text-align: center;
 }
@@ -341,7 +341,7 @@ img:hover{
     width: auto;
     height: auto;
     text-decoration: none;
-    color: #28fc5a;
+    color: #b5e853;
     font-size: 20px;
     margin-top: 5px;
     font-family: "Microsoft Yehei", "Lantinghei SC", "Hiragino Sans GB", Helvatica, Arial, sans-serif;
@@ -358,7 +358,7 @@ img:hover{
     height: auto;
     margin: 0 auto;
     text-align: center;
-    color: #666;
+    color: #444;
 }
 
 

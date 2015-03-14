@@ -71,6 +71,7 @@ function showLefttip(obj,id,html,width,height){
 
 
 var inte = document.getElementById("intern");
+var web = document.getElementById("webdev");
 var pr = document.getElementById("project");
 var no = document.getElementById("note");
 var eh = document.getElementById("ehealth");
@@ -79,7 +80,11 @@ var un = document.getElementById("union");
 var av = document.getElementById("avatar")
 
 inte.onmousemove = function(){
-    showTooltip(this,"inte","跟进百度音乐IOS客户端和PC客户端产品迭代,编写需求文档,制定产 品及交互策略;处理用户反馈;曲库质量评估。",250);
+    showTooltip(this,"inte","跟进百度音乐IOS客户端和PC客户端产品迭代,编写需求文档,制定产 品及交互策略;处理用户反馈;曲库质量评估",250);
+}
+
+web.onmousemove = function(){
+    showTooltip(this,"web","负责阿凡题手机App内部运营系统的前端开发",250);
 }
 
 pr.onmousemove = function(){
@@ -95,7 +100,7 @@ eh.onmousemove = function(){
 }
 
 ec.onmousemove = function(){
-    showTooltip(this,"ec","负责协会日常运作,协调与社团联及各协会的关系,促进协会内外部日常交流,开展社团活动。",250);
+    showTooltip(this,"ec","负责协会日常运作,协调与社团联及各协会的关系,促进协会内外部日常交流,开展社团活动",250);
 }
 
 un.onmousemove = function(){

@@ -152,7 +152,7 @@ img:hover{
     float: left;
 }
 
-.container .education,.container .intern,.container .project,.container .lang{
+.container .education,.container .project,.container .lang{
     width: 90%;
     height: 50px;
     margin: 0 auto;
@@ -182,7 +182,7 @@ img:hover{
     margin-top:7px;
 }
 
-.container .education .divide,.container .intern .divide,.container .project .divide,.container .lang .divide{
+.container .education .divide,.container .project .divide,.container .lang .divide{
     width: 4px;
     height: 40%;
     margin: 15px 15px;
@@ -192,7 +192,7 @@ img:hover{
     border-radius: 2px;
 }
 
-.container .education .edu-info,.container .intern .intern-info,.container .project .project-info,.container .lang .lang-info{
+.container .education .edu-info,.container .project .project-info,.container .lang .lang-info{
     width: 45%;
     height: auto;
     margin: 10px 0;
@@ -229,7 +229,7 @@ img:hover{
     color: #b5e853;
 }
 
-.container .program,.container .active,.container .tech{
+.container .program,.container .intern,.container .active,.container .tech{
     width: 90%;
     height: 100px;
     margin: 0 auto;
@@ -237,7 +237,7 @@ img:hover{
     border-radius: 20px;
 }
 
-.container .program .divide,.container .active .divide,.container .tech .divide{
+.container .program .divide,.container .intern .divide,.container .active .divide,.container .tech .divide{
     width: 4px;
     height: 70%;
     margin: 15px 15px;
@@ -247,7 +247,7 @@ img:hover{
     border-radius: 2px;
 }
 
-.container .program .program-info,.container .active .active-info{
+.container .program .program-info,.container .intern .intern-info,.container .active .active-info{
     width: 45%;
     height: auto;
     margin-top: 7px;
@@ -260,7 +260,7 @@ img:hover{
     color: #b5e853;
 }
 
-.container .program .program-time p,.container .active .active-time p{
+.container .program .program-time p,.container .intern .intern-time p,.container .active .active-time p{
     text-align: right;
     height: auto;
     display: block;

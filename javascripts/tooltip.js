@@ -85,7 +85,7 @@ inte.onmousemove = function(){
 }
 
 web.onmousemove = function(){
-    showTooltip(this,"web","负责阿凡题手机App内部运营系统的前端开发",250);
+    showTooltip(this,"web","负责公司内部运营系统的前端开发",250);
 }
 
 pr.onmousemove = function(){

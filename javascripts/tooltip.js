@@ -73,6 +73,7 @@ function showLefttip(obj,id,html,width,height){
 var inte = document.getElementById("intern");
 var web = document.getElementById("webdev");
 var pr = document.getElementById("project");
+var co = document.getElementById("community");
 var no = document.getElementById("note");
 var eh = document.getElementById("ehealth");
 var ec = document.getElementById("ecom");
@@ -89,6 +90,10 @@ web.onmousemove = function(){
 
 pr.onmousemove = function(){
     showTooltip(this,"pr","参与51cto学院手机客户端的需求分析和界面设计",250);
+}
+
+co.onmousemove = function(){
+    showTooltip(this,"co","参与我的小区Mobile Web App手机浏览器端页面的交互设计和前端开发",250);
 }
 
 no.onmousemove = function(){

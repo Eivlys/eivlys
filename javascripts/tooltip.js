@@ -81,7 +81,7 @@ var un = document.getElementById("union");
 var av = document.getElementById("avatar")
 
 inte.onmousemove = function(){
-    showTooltip(this,"inte","跟进百度音乐IOS客户端和PC客户端产品迭代,编写需求文档,制定产 品及交互策略;处理用户反馈;曲库质量评估",250);
+    showTooltip(this,"inte","跟进百度音乐IOS客户端和PC客户端产品迭代,编写需求文档,制定产品及交互策略;处理用户反馈;曲库质量评估",250);
 }
 
 web.onmousemove = function(){
